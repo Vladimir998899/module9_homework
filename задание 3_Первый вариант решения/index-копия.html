@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XMLHTTP request-Первый вариант решения</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .input-block {
+            display: flex;
+            gap: 40px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+
+        .input-block button {
+            border-radius: 12px;
+            cursor: pointer;
+        }
+
+        #picBlock {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="input-block">
+        <label for="">Сколько изображений вывести? <br />
+            <input class="pic-number3" style="width: 200px" type="number"
+                placeholder="Введите число от 1 до 10" /></label>
+        <button id="pressButt">Жми</button>
+    </div>
+
+    <div class="imageList"></div>
+    <script src="задание 3_Первый вариант решения.js"></script>
+</body>
+
+</html>
